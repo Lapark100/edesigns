@@ -31,7 +31,7 @@ export default function Header() {
           <Link href="/about" className="hover:text-[#e59400] transition">
             About Us
           </Link>
-          <Link href="/" className="hover:text-[#e59400] transition">
+          <Link href="/board" className="hover:text-[#e59400] transition">
             Board Of Directors
           </Link>
           <Link href="/" className="hover:text-[#e59400] transition">
@@ -57,7 +57,7 @@ export default function Header() {
             <Link href="/about" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
               About Us
             </Link>
-            <Link href="/" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
+            <Link href="/board" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
               Board Of Directors
             </Link>
             <Link href="/" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
